@@ -7,7 +7,7 @@ public class JavaConnection {
 
 	public static Connection ConnerDb() {
 		try {
-			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/employee?user=root&password=1234");
+			conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/product?user=root&password=1234");
 			return conn;
 		} catch (Exception e) {
 			JOptionPane.showMessageDialog(null, e);
